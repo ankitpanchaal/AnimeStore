@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import ProductCard2 from './ProductCard2'
 import client from '../../sanity';
 import { DataContext } from '@/lib/AppContext';
+import Loading from './Loading';
 
 const Products = () => {
 
@@ -21,17 +22,15 @@ const Products = () => {
             .catch((error) => console.error(error));
     }, []);
 
-    if (!product) {
-        return <div>Loading...</div>;
-    }
-
     return (
         <div className="flex flex-wrap lg:px-20 gap-4 lg:gap-10 justify-center" >
-            {product.map((item, index) => {
-                return (
-                    <ProductCard2 key={index} item={item} />
-                )
-            })}
+            {
+                !product ? <Loading /> :
+                    product.map((item, index) => {
+                        return (
+                            <ProductCard2 key={index} item={item} />
+                        )
+                    })}
         </div>
     )
 }

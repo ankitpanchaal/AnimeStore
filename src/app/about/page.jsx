@@ -6,12 +6,14 @@ const page = () => {
         <div className="pt-12 max-w-[1200px] " >
             <Header title={"About"} />
 
-            <img src="https://www.ugaoo.com/cdn/shop/files/seeds_d1444f50-6be6-4575-8256-914cd5317320.png?v=1679334092"
-
-                className="w-96 h-40 object-cover flex m-auto mt-3"
+            <img src={"https://cdn-icons-png.flaticon.com/256/10006/10006125.png"}
+                className="w-96 h-40 object-contain flex m-auto mt-3"
                 alt="" />
 
-            <p className='justify-center px-3 mt-4 lg:px-32'>"Welcome to our website! We are dedicated to providing you with the best online experience. Whether you're looking for information, products, or services, we've got you covered. Our team of experts is passionate about delivering top-notch solutions tailored to your needs. With our user-friendly interface and intuitive navigation, you'll have no trouble finding what you're looking for. Explore our wide range of offerings and discover how we can help you achieve your goals. Join our community of satisfied customers and embark on a seamless online journey with us. Start exploring today!"</p>
+            <p className='justify-center px-3 mt-4 lg:px-32'>Welcome to AnimeTee India!
+                <br />
+
+                Discover the ultimate destination for all anime enthusiasts looking to showcase their love for their favorite series through fashionable and trendy printed anime t-shirts. At AnimeTee India, we bring you an extensive collection of high-quality, officially licensed anime-inspired apparel, designed exclusively for fans in India.</p>
         </div>
     )
 }

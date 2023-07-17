@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import client from '../../../../sanity'
 import { imageUrl } from '../../../../imageUrl'
 import wa from '@/lib/wa'
+import Loading from '@/components/Loading'
 
 const product = ({ params }) => {
 
@@ -29,7 +30,9 @@ const product = ({ params }) => {
     }, []);
 
     if (!data) {
-        return <div>Loading...</div>;
+        return <div className="pt-10 lg:h-96 flex items-center justify-center">
+            <Loading />
+        </div>
     }
 
     return (
@@ -42,12 +45,12 @@ const product = ({ params }) => {
                         </div>
                     )}
                 </div>
-                <img src={imageUrl(data.image[currentImageIndex])} alt="" className="w-72 h-72 object-contain rounded-md" />
+                <img src={imageUrl(data?.image?.[currentImageIndex])} alt="" className="w-72 h-72 object-contain rounded-md" />
                 <div className="mt-4">
-                    <div className="text-sm font-semibold text-slate-900">{data.name}</div>
-                    <div className="text-[12px] text-slate-500 font-medium">{data.Desc}</div>
+                    <div className="text-sm font-semibold text-slate-900">{data?.name}</div>
+                    <div className="text-[12px] text-slate-500 font-medium">{data?.Desc}</div>
                     <div className="text-md font-semibold text-[#FF676D] mt-1">
-                        Price - ₹{data.price}
+                        Price - ₹{data?.price}
                     </div>
                     <div className='justify-start mt-4'>
                         <Button text="Buy" onClick={handleBuy} />

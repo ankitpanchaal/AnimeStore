@@ -7,8 +7,8 @@ import { DataProvider } from '@/lib/AppContext'
 const inter = Poppins({ subsets: ['latin'], weight: ["400", "500", "600", "700", "800", "900"], })
 
 export const metadata = {
-  title: 'WEB',
-  description: 'HEY',
+  title: 'ANIME STORE',
+  description: 'Buy best quality anime printed t shirts',
 }
 
 export default function RootLayout({ children }) {

@@ -22,7 +22,7 @@ export const NavBar = () => {
             <div className="flex justify-between items-center px-4 py-2 bg-[#ffffff40] backdrop-blur-lg lg:px-20" >
                 {/* left */}
 
-                <Link href='./' >
+                <Link href='/' >
                     <img src="https://cdn-icons-png.flaticon.com/256/9599/9599122.png" alt="LOGO"
                         className="w-10 "
                     />

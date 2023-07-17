@@ -4,6 +4,7 @@ import CategoryCard from './CategoryCard'
 // import { Cat } from './dummy'
 import client from '../../sanity'
 import { DataContext } from '@/lib/AppContext'
+import Loading from './Loading'
 
 export const Categories = () => {
     const { category, updateCategory } = useContext(DataContext);
@@ -15,13 +16,10 @@ export const Categories = () => {
             .catch((error) => console.error(error));
     }, []);
 
-    if (!category) {
-        return <div>Loading...</div>;
-    }
-
     return (
         <div className="flex gap-4 lg:gap-10 justify-center" >
-            {category.map((e, index) => <CategoryCard item={e} key={index} />)}
+            {!category ? <Loading /> :
+                category.map((e, index) => <CategoryCard item={e} key={index} />)}
         </div>
     )
 }

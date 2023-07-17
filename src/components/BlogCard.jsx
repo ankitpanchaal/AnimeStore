@@ -4,7 +4,7 @@ const BlogCard = ({ item }) => {
     return (
         <div className="w-52 m-4 zduration-300 hover:scale-105 cursor-pointer" >
             <img src={item?.imageUrl} alt=""
-                className="w-[100%] h-[120px] object-cover"
+                className="w-[100%] h-[120px] object-contain"
             />
             <div className="flex gap-1 mt-1 items-center" >
                 <img src="https://cdn-icons-png.flaticon.com/128/747/747310.png" alt=""

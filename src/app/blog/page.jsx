@@ -19,83 +19,13 @@ export default page
 
 const itemsArray = [
     {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/basket_planter.jpg?v=1688642989&width=750",
+        imageUrl: "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/5/u/w/s-d256-pagalpan-original-imagq7g2ghkwwdak.jpeg?q=100",
         date: "July 06, 2023",
-        title: "The Benefits of Using Basket Planters in Your Gardening Routine"
+        title: "Anime Fashion Revolution: Unleash Your Style with AnimeTee India's Trendsetting T-Shirts!"
     },
     {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/vertical_garden.jpg?v=1688547843&width=750",
+        imageUrl: "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/b/r/g/xxl-d256-pagalpan-original-imagq7g2efb9bzcd.jpeg?q=100",
         date: "July 06, 2023",
-        title: "A Guide to Creating a Vertical Garden in Mumbai Apartments"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/air_purifying_plants_bangalore.jpg?v=1688391851&width=750",
-        date: "July 04, 2023",
-        title: "Reducing Pollution in Bangalore: The Power of Air-Purifying Plants"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/insulin.jpg?v=1688112117&width=750",
-        date: "July 03, 2023",
-        title: "Unveiling the Marvelous Insulin Plant: Care, Benefits, and Varieties"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/basket_planter.jpg?v=1688642989&width=750",
-        date: "July 06, 2023",
-        title: "The Benefits of Using Basket Planters in Your Gardening Routine"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/vertical_garden.jpg?v=1688547843&width=750",
-        date: "July 06, 2023",
-        title: "A Guide to Creating a Vertical Garden in Mumbai Apartments"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/air_purifying_plants_bangalore.jpg?v=1688391851&width=750",
-        date: "July 04, 2023",
-        title: "Reducing Pollution in Bangalore: The Power of Air-Purifying Plants"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/insulin.jpg?v=1688112117&width=750",
-        date: "July 03, 2023",
-        title: "Unveiling the Marvelous Insulin Plant: Care, Benefits, and Varieties"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/basket_planter.jpg?v=1688642989&width=750",
-        date: "July 06, 2023",
-        title: "The Benefits of Using Basket Planters in Your Gardening Routine"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/vertical_garden.jpg?v=1688547843&width=750",
-        date: "July 06, 2023",
-        title: "A Guide to Creating a Vertical Garden in Mumbai Apartments"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/air_purifying_plants_bangalore.jpg?v=1688391851&width=750",
-        date: "July 04, 2023",
-        title: "Reducing Pollution in Bangalore: The Power of Air-Purifying Plants"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/insulin.jpg?v=1688112117&width=750",
-        date: "July 03, 2023",
-        title: "Unveiling the Marvelous Insulin Plant: Care, Benefits, and Varieties"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/basket_planter.jpg?v=1688642989&width=750",
-        date: "July 06, 2023",
-        title: "The Benefits of Using Basket Planters in Your Gardening Routine"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/vertical_garden.jpg?v=1688547843&width=750",
-        date: "July 06, 2023",
-        title: "A Guide to Creating a Vertical Garden in Mumbai Apartments"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/air_purifying_plants_bangalore.jpg?v=1688391851&width=750",
-        date: "July 04, 2023",
-        title: "Reducing Pollution in Bangalore: The Power of Air-Purifying Plants"
-    },
-    {
-        imageUrl: "https://www.ugaoo.com/cdn/shop/articles/insulin.jpg?v=1688112117&width=750",
-        date: "July 03, 2023",
-        title: "Unveiling the Marvelous Insulin Plant: Care, Benefits, and Varieties"
+        title: "Express Your Anime Obsession: Discover the Hottest Anime T-Shirt Designs at AnimeTee India!"
     },
 ];
