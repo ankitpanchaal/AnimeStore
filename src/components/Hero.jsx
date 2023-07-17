@@ -31,7 +31,7 @@ const Hero = () => {
 
                         <div className="mt-10 mx-2">
                             <div className="m-auto mb-2 w-28">
-                                <Link href={"/singleProduct/rowlans-running-shoes-for-women-black"}>
+                                <Link href={"/singleProduct/hero"}>
                                     <Button text={"BUY"} />
                                 </Link>
                             </div>
