@@ -15,7 +15,7 @@ export const NavBar = () => {
         wa("Gpogs.fl")
     };
 
-    const liStyle = "font-medium  hover:font-bold cursor-pointer text-sm uppercase lg:text-[12px]"
+    const liStyle = "font-medium  hover:font-bold cursor-pointer text-sm uppercase lg:text-[16spx]"
 
     return (
         <nav className='fixed w-[100%] z-50' >
@@ -69,20 +69,20 @@ export const NavBar = () => {
                 isOpen &&
                 <div className="lg:hidden bg-[#ffafaf70] backdrop-blur-sm p-4 rounded-md w-60 absolute top-4 right-12 z-50" >
                     <Link onClick={toggleMenu} href="/" >
-                        <li className={`${liStyle} mb-2`} >HOME</li>
+                        <li className={`${liStyle} mb-4`} >HOME</li>
                     </Link>
 
                     <Link onClick={toggleMenu} href="about">
-                        <li className={`${liStyle} mb-2`}>ABOUT</li>
+                        <li className={`${liStyle} mb-4`}>ABOUT</li>
                     </Link>
 
 
                     <Link onClick={toggleMenu} href="products">
-                        <li className={`${liStyle} mb-2`}>Products</li>
+                        <li className={`${liStyle} mb-4`}>Products</li>
                     </Link>
 
                     <Link onClick={toggleMenu} href="contact">
-                        <li className={`${liStyle} mb-2`}>CONTECT US</li>
+                        <li className={`${liStyle} mb-4`}>CONTECT US</li>
                     </Link>
 
                     <Link onClick={toggleMenu} href="blog">

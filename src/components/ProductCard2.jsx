@@ -11,7 +11,7 @@ const ProductCard2 = ({ item }) => {
                     <img src={imageUrl(item.image[0])} alt="" className="h-[150px] w-[150px] lg:h-[250px] lg:w-[250px] rounded-md -z-10 object-contain" />
                     <div className="mt-2 px-2">
                         <div className="font-semibold text-sm text-black line-clamp-2">{item.name}</div>
-                        <div className="font-medium text-[10px] text-[#FF676D]">Price: ₹  {item.price}</div>
+                        <div className="font-medium text-lg text-[#FF676D]">Price: ₹  {item.price}</div>
                     </div>
                 </div>
             </div>
