@@ -1,5 +1,5 @@
 'use client'
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect } from 'react'
 import ProductCard2 from './ProductCard2'
 import client from '../../sanity';
 import { DataContext } from '@/lib/AppContext';
@@ -36,51 +36,3 @@ const Products = () => {
 }
 
 export default Products
-
-const products = [
-    {
-        imageUrl: 'https://www.ugaoo.com/cdn/shop/products/AtlantisPlanter-PastelBlue.jpg?v=1680434558&width=375',
-        name: 'Peace Lily Plant',
-        price: 10.99
-    },
-    {
-        imageUrl: 'https://www.ugaoo.com/cdn/shop/products/LagosPlanter-Grey_f26c8dee-c8ce-4e1a-bec7-86006f560c98.jpg?v=1680418283&width=375',
-        name: 'Bamboo Palm',
-        price: 19.99
-    },
-    {
-        imageUrl: 'https://www.ugaoo.com/cdn/shop/products/AtlantisPlanter-PastelPink_97fc1e67-958a-4da8-98b6-31a47bdce6b7.jpg?v=1688563979&width=375',
-        name: 'Money Plant ',
-        price: 14.5
-    },
-    {
-        imageUrl: 'https://www.ugaoo.com/cdn/shop/files/Aimage_3.jpg?v=1682523121&width=375',
-        name: 'Lucky  Plant',
-        price: 7.99
-    },
-    {
-        imageUrl: 'https://www.ugaoo.com/cdn/shop/products/AtlantisPlanter-PastelPink_b9cb7567-785a-464c-88f9-d5282d4668d1.jpg?v=1680427445&width=375',
-        name: 'Fittonia Plant',
-        price: 12.49
-    },
-    {
-        imageUrl: 'https://www.ugaoo.com/cdn/shop/products/areca-palm-plant-xl-31798831349892.jpg?v=1675575726&width=375',
-        name: 'Areca Plant',
-        price: 12.49
-    },
-    {
-        imageUrl: 'https://www.ugaoo.com/cdn/shop/files/Aimage_3.jpg?v=1682523121&width=375',
-        name: 'Lucky Plant',
-        price: 7.99
-    },
-    {
-        imageUrl: 'https://www.ugaoo.com/cdn/shop/products/AtlantisPlanter-PastelPink_b9cb7567-785a-464c-88f9-d5282d4668d1.jpg?v=1680427445&width=375',
-        name: 'Fittonia Plant',
-        price: 12.49
-    },
-    {
-        imageUrl: 'https://www.ugaoo.com/cdn/shop/products/areca-palm-plant-xl-31798831349892.jpg?v=1675575726&width=375',
-        name: 'Areca XL',
-        price: 12.49
-    },
-];

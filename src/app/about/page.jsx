@@ -3,7 +3,7 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div className="pt-12 max-w-[1200px] " >
+        <div className="pt-12 max-w-[1200px] m-auto mt-2 " >
             <Header title={"About"} />
 
             <img src={"https://cdn-icons-png.flaticon.com/256/10006/10006125.png"}

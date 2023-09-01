@@ -6,7 +6,7 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div className="pt-10" >
+        <div className="pt-10 max-w-[1200px] m-auto mt-2" >
             <div className="mt-4 mb-3">
                 <Header title={"Contact Us"} />
             </div>
